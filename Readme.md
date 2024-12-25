@@ -1,6 +1,5 @@
 # Difference in uv build times 
 
-Here is the formatted data in a table:
 
 | **Environment**          | **Python 3.12**          | **Python 3.13**          |
 |---------------------------|--------------------------|--------------------------|
