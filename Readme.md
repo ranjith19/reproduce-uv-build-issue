@@ -1,19 +1,15 @@
 # there is some issue with uv builds between 3.13 and 3.12
 
+Here is the formatted data in a table:
 
-# In docker
+| **Environment**          | **Python 3.12**          | **Python 3.13**          |
+|---------------------------|--------------------------|--------------------------|
+| **Docker Build Time** | 7.6 seconds             | 83 seconds              |
+| **General Execution Time**    | Less than 5 seconds     | More than 30 seconds     |
 
-Python3.12 - 7.6 seconds
-Python3.13 - 83 seconds
+# Logs
 
-
-# Outside docker
-
-
-Python3.12 - less than 5 seconds
-Python3.13 - more than 30 seconds
-
-
+## In docker
 
 
 
@@ -56,7 +52,7 @@ Building ruvb for 3.13
  ````
 
 
- # Outside of docker
+ ## Outside of docker
 
 
 ```
