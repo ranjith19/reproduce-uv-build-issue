@@ -1,4 +1,4 @@
-# there is some issue with uv builds between 3.13 and 3.12
+# Difference in uv build times 
 
 Here is the formatted data in a table:
 
@@ -6,6 +6,19 @@ Here is the formatted data in a table:
 |---------------------------|--------------------------|--------------------------|
 | **Docker Build Time** | 7.6 seconds             | 83 seconds              |
 | **General Execution Time**    | Less than 5 seconds     | More than 30 seconds     |
+
+
+# Test
+
+
+```
+bash build-docker.sh
+```
+
+```
+bash build-local.sh
+```
+
 
 # Logs
 
