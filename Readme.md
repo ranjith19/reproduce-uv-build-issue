@@ -20,7 +20,7 @@ bash build-local.sh
 ```
 
 
-# Logs
+# Logs (on a macbook m4 machine)
 
 ## In docker
 
